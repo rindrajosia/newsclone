@@ -1,0 +1,2 @@
+# newsclone
+Bootstrap project
