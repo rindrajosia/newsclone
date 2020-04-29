@@ -17,6 +17,33 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h3 a,
+h4 a {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h5 a,
+h6 a,
+h6 {
+  color: black;
+}
+
+h6 {
+  font-size: 22px;
+  line-height: 22px;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -44,6 +71,7 @@ a:hover {
 .link-underline:hover {
   text-decoration: underline;
   text-decoration-color: red;
+  color: black;
 }
 
 .link-red:hover {
@@ -87,6 +115,14 @@ a:hover {
 
 .scroll-right a {
   margin-right: 15px;
+}
+
+.categorie a {
+  color: #f72210;
+}
+
+.categorie-blue a {
+  color: #3581f4;
 }
 
 .menu li a {
@@ -269,41 +305,14 @@ a:hover {
   line-height: 16px;
 }
 
-.categorie a {
-  color: #f72210;
-}
-
-.categorie-blue a {
-  color: #3581f4;
-}
-
-h3 {
-  font-size: 18px;
+.summary {
+  font-size: 14px;
   line-height: 20px;
+  font-weight: 400;
 }
 
-h3 a,
-h4 a {
-  margin-bottom: 10px;
-  position: relative;
-  color: black;
-}
-
-h5 {
-  font-size: 18px;
-  line-height: 22px;
-}
-
-h5 a {
-  color: black;
-}
-
-h6 {
-  font-size: 22px;
-  line-height: 22px;
-  color: black;
-}
-
-h6 a {
-  color: black;
+.card-text {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
 }
