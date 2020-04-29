@@ -3,7 +3,7 @@ Bootstrap project
 
 In this project I have cloned one website that uses Twitter’s Bootstrap framework: newsweek.com.
 
-![Algorithm schema](./screenshot.png)
+![Algorithm schema](./newsweek.jpg)
 
 The goal here is to use the appropriate Bootstrap classes to positioning elements.
 
@@ -14,7 +14,7 @@ The goal here is to use the appropriate Bootstrap classes to positioning element
 * CSS
 
 # Live Demo
-**[Live Demo](https://raw.githack.com/rindrajosia/apple-clone/feature-one/index.html)**
+**[Live Demo](https://rawcdn.githack.com/rindrajosia/newsclone/9a18fd3400725c64a4b21cae6c1fd3e4f3f00518/index.html)**
 
 
 # Getting Started
@@ -35,7 +35,7 @@ To use it locally, you need to :
 #  Contributing
 
 Contributions, issues and feature requests are welcome!
-Feel free to check the **[issues](https://github.com/rindrajosia/apple-clone/issues)** page.
+Feel free to check the **[issues](https://github.com/rindrajosia/newsclone/issues)** page.
 
 
 #  Show your support
@@ -44,6 +44,7 @@ Feel free to check the **[issues](https://github.com/rindrajosia/apple-clone/iss
 
 # Acknowledgments
 
-* apple.com
+* newsweek.com
+* The odin project
 * Microverse
 * Contributors
