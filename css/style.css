@@ -146,10 +146,21 @@ a:hover {
   padding-bottom: 4px;
 }
 
+.media-icon > a {
+  font-size: 26px;
+  line-height: 14px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+}
+
 .menu li a {
   font-size: 17px;
   line-height: 24px;
   display: block;
+}
+
+.language > div a {
+  color: rgb(102, 102, 102);
 }
 
 .scroll-right a:not(.link-top) {
@@ -224,6 +235,12 @@ a:hover {
 
 .top-right a:first-child {
   padding-right: 10px;
+}
+
+.media-icon > a:hover,
+.media-icon > a:focus {
+  text-decoration: none;
+  color: rgb(53, 129, 244);
 }
 
 .menu li:not(:first-child) a {
@@ -561,4 +578,115 @@ a:hover {
   text-transform: uppercase;
   left: 0;
   bottom: 0;
+}
+
+.mini-title-last {
+  font: bold 14px/19px "Roboto", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.subscribe-container {
+  background-color: rgb(244, 245, 246);
+}
+
+.mega-thumb {
+  position: relative;
+}
+
+.mega-thumb :nth-child(2) {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mega-thumb-sm {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+  }
+}
+
+.p-subscribe {
+  line-height: 21px;
+  font-size: 15px;
+}
+
+.border-subscribe-last {
+  border-radius: 0;
+  width: 120px;
+  height: 40px;
+  font: bold 18px/18px "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.newsletter-image {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .newsletter-image {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .newsletter-image {
+    height: 210px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .newsletter-image {
+    height: 301px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .newsletter-image {
+    height: 301px;
+  }
+}
+
+#logo-footer-svg {
+  fill: rgb(247, 34, 16);
+  width: 236px;
+  height: 36px;
+}
+
+.copyrights {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+}
+
+.socialmedia {
+  width: 159px;
+}
+
+.language :nth-child(1) {
+  border: none;
+}
+
+.language > div {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.language > div a:hover,
+.language > div a:focus {
+  text-decoration: none;
+  color: black;
 }
