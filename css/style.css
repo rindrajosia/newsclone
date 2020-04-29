@@ -61,6 +61,10 @@ a:hover {
   background-color: white;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .text-red {
   color: red;
 }
@@ -85,6 +89,10 @@ a:hover {
 
 .link-white:hover {
   color: white;
+}
+
+.link-black:hover {
+  color: black;
 }
 
 /* sticky navbar */
@@ -323,6 +331,12 @@ a:hover {
   height: 65px;
 }
 
+.image-debate {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
 .categorie,
 .categorie-blue {
   position: absolute;
@@ -356,4 +370,77 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.description-4 {
+  width: calc(100% - 80px);
+}
+
+.border-danger-size {
+  border-top: 4px solid;
+}
+
+.border-double {
+  border-top: 4px double;
+  border-color: rgba(3, 3, 3, 0.2);
+}
+
+.feature-right {
+  position: relative;
+}
+
+.vs {
+  width: 100%;
+  height: 70px;
+}
+
+.text-cv {
+  width: 40px;
+  height: 40px;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.mini-card {
+  max-width: 280px;
+  margin: auto;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.mini-title {
+  font-size: 19px;
+  line-height: 19px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.icon-n {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.border-radius-none {
+  border-radius: 0;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.lk,
+.lk:hover {
+  margin-top: 15px;
+  color: #333;
+  font: bold 15px/15px "Roboto", sans-serif;
 }
