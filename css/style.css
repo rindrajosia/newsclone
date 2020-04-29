@@ -444,3 +444,121 @@ a:hover {
   color: #333;
   font: bold 15px/15px "Roboto", sans-serif;
 }
+
+@media (max-width: 992px) {
+  .test-center {
+    width: 332px;
+  }
+}
+
+@media (max-width: 768px) {
+  .test-center {
+    width: 100%;
+  }
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-item .image-100 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cover-magazin {
+  position: absolute;
+  font: bold 16px/33px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: red;
+  left: 0;
+  bottom: 0;
+}
+
+.border-radius-magazin {
+  background-color: rgba(231, 227, 235, 0.5);
+  border-radius: 0;
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 18px;
+}
+
+.border-radius-magazin:hover {
+  background-color: rgba(231, 227, 235, 1);
+}
+
+.magazin-summary {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 18px;
+}
+
+.title-box1 {
+  padding: 0 5px 0 5px;
+  background-color: red;
+  color: white;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.title-box2 {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.gallery-item .image-magazin {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.gallery-item .image-magazin img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item .text-top {
+  height: 38px;
+}
+
+.gallery-item .text {
+  height: 100px;
+}
+
+.gallery-item .image-magazin-b {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery-item .image-magazin-b img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-box-focus {
+  position: absolute;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
+  text-transform: uppercase;
+  left: 0;
+  bottom: 0;
+}
