@@ -1,0 +1,692 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f5f6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+  max-width: 1302px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h3 a,
+h4 a {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h5 a,
+h6 a,
+h6 {
+  color: black;
+}
+
+h6 {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.link-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: black;
+}
+
+.link-red:hover {
+  color: red;
+}
+
+.link-white:hover {
+  color: white;
+}
+
+.link-black:hover {
+  color: black;
+}
+
+/* sticky navbar */
+
+#menuscroll {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 49px;
+  background-color: red;
+  color: #fff;
+  display: none;
+  z-index: 9999;
+}
+
+.my-scrollbar {
+  height: 100%;
+  padding-left: 20px;
+}
+
+.scroll-left svg {
+  width: 130px;
+  fill: white;
+}
+
+.scroll-weather {
+  margin-left: 5px;
+}
+
+.scroll-right img {
+  width: 33px;
+}
+
+.scroll-right a {
+  margin-right: 15px;
+}
+
+.categorie a {
+  color: #f72210;
+}
+
+.categorie-blue a {
+  color: #3581f4;
+}
+
+.categorie-card-deck a {
+  background-color: #c2d4d7;
+  color: #272727;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 4px;
+}
+
+.media-icon > a {
+  font-size: 26px;
+  line-height: 14px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+}
+
+.menu li a {
+  font-size: 17px;
+  line-height: 24px;
+  display: block;
+}
+
+.language > div a {
+  color: rgb(102, 102, 102);
+}
+
+.scroll-right a:not(.link-top) {
+  color: #fff;
+}
+
+.top-header {
+  height: 108px;
+}
+
+@media (max-width: 992px) {
+  .top-header {
+    height: 50px;
+  }
+}
+
+.top {
+  max-width: 1310px;
+  width: 100%;
+  height: 70px;
+}
+
+@media (max-width: 992px) {
+  .top {
+    height: 26px;
+  }
+}
+
+.top-left,
+.top-center,
+.top-right {
+  margin: 0;
+  padding: 0;
+}
+
+.top-left {
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.weather-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  fill: white;
+}
+
+.top-center svg {
+  fill: white;
+  width: 396px;
+}
+
+@media (max-width: 992px) {
+  .top-center svg {
+    width: 130px;
+  }
+}
+
+.top-center > div {
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 642px) {
+  .d-none-642 {
+    display: none;
+  }
+}
+
+.top-right {
+  height: 100%;
+}
+
+.top-right a:first-child {
+  padding-right: 10px;
+}
+
+.media-icon > a:hover,
+.media-icon > a:focus {
+  text-decoration: none;
+  color: rgb(53, 129, 244);
+}
+
+.menu li:not(:first-child) a {
+  border-left: 2px ridge white;
+}
+
+.link-top {
+  text-align: center;
+  padding-top: 3px;
+  width: 130px;
+  height: 28px;
+}
+
+.link-top svg {
+  fill: rgb(247, 34, 16);
+  width: 8px;
+  height: 14px;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+
+.link-top:hover {
+  color: rgb(247, 34, 16);
+}
+
+.humb img {
+  width: 33px;
+  margin-left: 10px;
+}
+
+.navbar {
+  height: 56px;
+}
+
+.menu {
+  width: calc(100% - 5rem);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 5rem;
+  background-color: #f72210;
+  border-left: 0.75rem solid white;
+  border-top: 0.8125rem solid red;
+}
+
+.menu li {
+  list-style: none;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.search-input {
+  font-size: 16px;
+  width: 70px;
+  border: none;
+  padding: 0;
+}
+
+.search-icon {
+  width: 20px;
+}
+
+.block-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.wrap {
+  margin-bottom: 20px;
+}
+
+.image {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image-2 {
+  float: left;
+  width: 95px;
+  margin-right: 15px;
+}
+
+.image-3 {
+  width: 95px;
+  margin-right: 15px;
+}
+
+.image-4,
+.image-debate {
+  width: 65px;
+  height: 65px;
+}
+
+.image-debate {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.categorie,
+.categorie-blue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px 15px 9px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+.summary {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.card-text {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.card img {
+  border-radius: 0;
+}
+
+.categorie-card-deck {
+  font: 300 13px/20px Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.description-4 {
+  width: calc(100% - 80px);
+}
+
+.border-danger-size {
+  border-top: 4px solid;
+}
+
+.border-double {
+  border-top: 4px double;
+  border-color: rgba(3, 3, 3, 0.2);
+}
+
+.feature-right {
+  position: relative;
+}
+
+.vs {
+  width: 100%;
+  height: 70px;
+}
+
+.text-cv {
+  width: 40px;
+  height: 40px;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.mini-card {
+  max-width: 280px;
+  margin: auto;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.mini-title {
+  font-size: 19px;
+  line-height: 19px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.icon-n {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.border-radius-none {
+  border-radius: 0;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.lk,
+.lk:hover {
+  margin-top: 15px;
+  color: #333;
+  font: bold 15px/15px "Roboto", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .test-center {
+    width: 332px;
+  }
+}
+
+@media (max-width: 768px) {
+  .test-center {
+    width: 100%;
+  }
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-item .image-100 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cover-magazin {
+  position: absolute;
+  font: bold 16px/33px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: red;
+  left: 0;
+  bottom: 0;
+}
+
+.border-radius-magazin {
+  background-color: rgba(231, 227, 235, 0.5);
+  border-radius: 0;
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 18px;
+}
+
+.border-radius-magazin:hover {
+  background-color: rgba(231, 227, 235, 1);
+}
+
+.magazin-summary {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 18px;
+}
+
+.title-box1 {
+  padding: 0 5px 0 5px;
+  background-color: red;
+  color: white;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.title-box2 {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.gallery-item .image-magazin {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.gallery-item .image-magazin img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item .text-top {
+  height: 38px;
+}
+
+.gallery-item .text {
+  height: 100px;
+}
+
+.gallery-item .image-magazin-b {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery-item .image-magazin-b img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-box-focus {
+  position: absolute;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
+  text-transform: uppercase;
+  left: 0;
+  bottom: 0;
+}
+
+.mini-title-last {
+  font: bold 14px/19px "Roboto", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.subscribe-container {
+  background-color: rgb(244, 245, 246);
+}
+
+.mega-thumb {
+  position: relative;
+}
+
+.mega-thumb :nth-child(2) {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mega-thumb-sm {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+  }
+}
+
+.p-subscribe {
+  line-height: 21px;
+  font-size: 15px;
+}
+
+.border-subscribe-last {
+  border-radius: 0;
+  width: 120px;
+  height: 40px;
+  font: bold 18px/18px "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.newsletter-image {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .newsletter-image {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .newsletter-image {
+    height: 210px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .newsletter-image {
+    height: 301px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .newsletter-image {
+    height: 301px;
+  }
+}
+
+#logo-footer-svg {
+  fill: rgb(247, 34, 16);
+  width: 236px;
+  height: 36px;
+}
+
+.copyrights {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+}
+
+.socialmedia {
+  width: 159px;
+}
+
+.language :nth-child(1) {
+  border: none;
+}
+
+.language > div {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.language > div a:hover,
+.language > div a:focus {
+  text-decoration: none;
+  color: black;
+}
