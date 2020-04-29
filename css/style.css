@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f5f6;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.text-red {
+  color: red;
+}
+
+.link-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* sticky navbar */
+
+.my-scrollbar {
+  height: 100%;
+  padding-left: 20px;
+}
+
+.scroll-left svg {
+  width: 130px;
+  fill: white;
+}
+
+.scroll-weather {
+  margin-left: 5px;
+}
+
+.scroll-right img {
+  width: 33px;
+}
+
+.scroll-right a:not(.link-top) {
+  color: #fff;
+}
+
+.scroll-right a {
+  margin-right: 15px;
+}
