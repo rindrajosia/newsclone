@@ -235,3 +235,75 @@ a:hover {
 .search-icon {
   width: 20px;
 }
+
+.block-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.wrap {
+  margin-bottom: 20px;
+}
+
+.image {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.categorie,
+.categorie-blue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px 15px 9px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+.categorie a {
+  color: #f72210;
+}
+
+.categorie-blue a {
+  color: #3581f4;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h3 a,
+h4 a {
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h5 a {
+  color: black;
+}
+
+h6 {
+  font-size: 22px;
+  line-height: 22px;
+  color: black;
+}
+
+h6 a {
+  color: black;
+}
